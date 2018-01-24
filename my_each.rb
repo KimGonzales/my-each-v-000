@@ -4,5 +4,4 @@ def my_each(array)
     yield(array["#{counter}"]) #iterate through this code block and increment counter by 1
     counter+=1
   end
-  array
 end
