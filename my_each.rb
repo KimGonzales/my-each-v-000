@@ -3,7 +3,6 @@ def my_each(array)
   while counter < array.length
     yield array["#{counter}"]#iterate through this code block and increment counter by 1
     counter+=1
-    end
   end
   array
 end
