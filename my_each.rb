@@ -5,4 +5,5 @@ def my_each(array)
       i +=1#iterate through this code block and increment counter by 1
     counter+=1
   end
+  array
 end
